@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { PrismicRichText, PrismicText } from '@prismicio/react';
 
 const IntroductionSection = styled.section`
+  max-width: 1080px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
