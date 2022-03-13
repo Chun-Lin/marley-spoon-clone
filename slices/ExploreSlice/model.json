@@ -1,0 +1,53 @@
+{
+  "id": "explore_slice",
+  "type": "SharedSlice",
+  "name": "ExploreSlice",
+  "description": "ExploreSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ExploreSlice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading5"
+          }
+        }
+      },
+      "items": {
+        "avatar": {
+          "config": {
+            "label": "Avatar",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "cardTitle": {
+          "config": {
+            "label": "Card Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "cardLink": {
+          "config": {
+            "label": "Card Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

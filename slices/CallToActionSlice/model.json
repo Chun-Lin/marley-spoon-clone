@@ -1,0 +1,43 @@
+{
+  "id": "call_to_action_slice",
+  "type": "SharedSlice",
+  "name": "CallToActionSlice",
+  "description": "CallToActionSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CallToActionSlice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "signupButton": {
+          "config": {
+            "label": "Signup Button",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "bookDemoButton": {
+          "config": {
+            "label": "Book Demo Button",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

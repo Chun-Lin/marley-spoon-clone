@@ -1,0 +1,43 @@
+{
+  "id": "case-studies",
+  "label": "caseStudies",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "example_slice": {
+              "type": "SharedSlice"
+            },
+            "call_to_action_slice": {
+              "type": "SharedSlice"
+            },
+            "explore_slice": {
+              "type": "SharedSlice"
+            },
+            "introduction_slice": {
+              "type": "SharedSlice"
+            },
+            "testimonial_slice": {
+              "type": "SharedSlice"
+            },
+            "explain_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

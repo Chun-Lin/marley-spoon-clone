@@ -1,0 +1,54 @@
+{
+  "id": "testimonial_slice",
+  "type": "SharedSlice",
+  "name": "TestimonialSlice",
+  "description": "TestimonialSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TestimonialSlice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "avatar": {
+          "config": {
+            "label": "Avatar",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "testimonialTitle": {
+          "config": {
+            "label": "Testimonial Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "testimonialDesc": {
+          "config": {
+            "label": "Testimonial Desc",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}
