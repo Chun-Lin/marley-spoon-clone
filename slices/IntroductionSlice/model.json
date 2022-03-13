@@ -11,9 +11,9 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "IntroductionSlice",
       "primary": {
-        "caseImage": {
+        "caseTitleImage": {
           "config": {
-            "label": "Case Image",
+            "label": "Case Title Image",
             "constraint": {},
             "thumbnails": []
           },

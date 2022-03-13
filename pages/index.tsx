@@ -1,10 +1,28 @@
 import styled from 'styled-components'
+import { SliceZone } from "@prismicio/react";
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+import { components } from "../slices/index.js";
+import { createClient } from "../prismicio";
 
-export default function Home() {
-  return <Title>My page</Title>
+const Home = ({ slices }) => {
+  return (
+    <div>
+      <SliceZone slices={slices} components={components} />
+    </div>
+  );
+};
+
+export async function getStaticProps({ previewData }) {
+  const client = createClient({ previewData });
+
+  const caseStudies = await client.getSingle("case-studies");
+
+  return {
+    props: {
+      slices: caseStudies.data.slices,
+    },
+  };
 }
+
+export default Home;
+
