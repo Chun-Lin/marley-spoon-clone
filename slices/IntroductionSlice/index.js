@@ -6,6 +6,10 @@ const IntroductionSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  line-height: 1.6;
+  text-align: center;
 `;
 
 const CaseTitleImg = styled.img`
@@ -15,7 +19,6 @@ const CaseTitleImg = styled.img`
 `;
 
 const CaseTitle = styled.h1`
-  margin-top: 0;
   margin-bottom: 18px;
   font-size: 36px;
   font-weight: 300;
@@ -32,10 +35,8 @@ const DividerWrapper = styled.div`
   padding-bottom: 40px;
 `;
 
-const DescriptionWrapper = styled.div`
+const DescriptionWrapper = styled.p`
   width: calc(100% / 3 * 2);
-  line-height: 1.6;
-  text-align: center;
   font-size: 18px;
 `;
 
