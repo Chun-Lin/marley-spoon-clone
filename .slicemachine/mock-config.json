@@ -125,6 +125,11 @@
           }
         }
       }
+    },
+    "VideoSlice": {
+      "default": {
+        "primary": {}
+      }
     }
   },
   "_cts": {

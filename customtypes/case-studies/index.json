@@ -34,6 +34,9 @@
             },
             "quote_slice": {
               "type": "SharedSlice"
+            },
+            "video_slice": {
+              "type": "SharedSlice"
             }
           }
         }

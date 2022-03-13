@@ -6,6 +6,7 @@ import ExploreSlice from './ExploreSlice';
 import IntroductionSlice from './IntroductionSlice';
 import QuoteSlice from './QuoteSlice';
 import TestimonialSlice from './TestimonialSlice';
+import VideoSlice from './VideoSlice';
 
 export {
 	CallToActionSlice,
@@ -14,6 +15,7 @@ export {
 	IntroductionSlice,
 	QuoteSlice,
 	TestimonialSlice,
+	VideoSlice,
 };
 
 export const components = {
@@ -23,4 +25,5 @@ export const components = {
 	introduction_slice: IntroductionSlice,
 	quote_slice: QuoteSlice,
 	testimonial_slice: TestimonialSlice,
+	video_slice: VideoSlice,
 };
