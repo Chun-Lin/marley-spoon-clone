@@ -32,7 +32,7 @@
             "testimonial_slice": {
               "type": "SharedSlice"
             },
-            "explain_slice": {
+            "quote_slice": {
               "type": "SharedSlice"
             }
           }

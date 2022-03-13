@@ -387,133 +387,6 @@
           }
         }
       },
-      "explain_slice": {
-        "library": "slices",
-        "id": "explain_slice",
-        "name": "ExplainSlice",
-        "description": "ExplainSlice",
-        "model": {
-          "id": "explain_slice",
-          "type": "SharedSlice",
-          "name": "ExplainSlice",
-          "description": "ExplainSlice",
-          "variations": [
-            {
-              "id": "default",
-              "name": "Default",
-              "docURL": "...",
-              "version": "sktwi1xtmkfgx8626",
-              "description": "ExplainSlice",
-              "primary": {
-                "title": {
-                  "type": "StructuredText",
-                  "config": {
-                    "label": "Title",
-                    "placeholder": "This is where it all begins...",
-                    "allowTargetBlank": true,
-                    "single": "heading2"
-                  }
-                },
-                "description": {
-                  "type": "StructuredText",
-                  "config": {
-                    "label": "Description",
-                    "placeholder": "A nice description of your feature",
-                    "allowTargetBlank": true,
-                    "single": "paragraph"
-                  }
-                },
-                "description2": {
-                  "config": {
-                    "label": "Description2",
-                    "placeholder": "",
-                    "allowTargetBlank": true,
-                    "single": "paragraph"
-                  },
-                  "type": "StructuredText"
-                },
-                "image": {
-                  "config": {
-                    "label": "Image",
-                    "constraint": {},
-                    "thumbnails": []
-                  },
-                  "type": "Image"
-                },
-                "blockquote": {
-                  "config": {
-                    "label": "Blockquote",
-                    "placeholder": "",
-                    "allowTargetBlank": true,
-                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-                  },
-                  "type": "StructuredText"
-                }
-              },
-              "items": {}
-            }
-          ]
-        },
-        "mocks": {
-          "default": {
-            "variation": "default",
-            "name": "Default",
-            "slice_type": "explain_slice",
-            "items": [],
-            "primary": {
-              "title": [
-                {
-                  "type": "heading2",
-                  "text": "Generate impactful infomediaries",
-                  "spans": []
-                }
-              ],
-              "description": [
-                {
-                  "type": "paragraph",
-                  "text": "Laboris nulla aliqua labore ut proident culpa enim commodo incididunt est. Quis veniam veniam quis occaecat laboris Lorem. Ad in reprehenderit nisi mollit deserunt esse laboris ullamco.",
-                  "spans": []
-                }
-              ],
-              "description2": [
-                {
-                  "type": "paragraph",
-                  "text": "Elit ullamco sunt ea dolore est. Officia labore velit id anim mollit dolore commodo non.",
-                  "spans": []
-                }
-              ],
-              "image": {
-                "dimensions": {
-                  "width": 900,
-                  "height": 500
-                },
-                "alt": "Placeholder image",
-                "copyright": null,
-                "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
-              },
-              "blockquote": [
-                {
-                  "type": "paragraph",
-                  "text": "Consequat commodo velit aute. Elit officia cupidatat ut deserunt culpa.",
-                  "spans": []
-                }
-              ]
-            }
-          }
-        },
-        "meta": {
-          "fileName": "index",
-          "isDirectory": true,
-          "extension": "js"
-        },
-        "screenshotPaths": {
-          "default": {
-            "path": "/Users/gary_wu/Documents/work-space/marley-spoon-clone/.slicemachine/assets/slices/ExplainSlice/default/preview.png",
-            "width": 800,
-            "height": 103
-          }
-        }
-      },
       "explore_slice": {
         "library": "slices",
         "id": "explore_slice",
@@ -794,6 +667,219 @@
           "extension": "js"
         },
         "screenshotPaths": {}
+      },
+      "quote_slice": {
+        "library": "slices",
+        "id": "quote_slice",
+        "name": "QuoteSlice",
+        "description": "QuoteSlice",
+        "model": {
+          "id": "quote_slice",
+          "type": "SharedSlice",
+          "name": "QuoteSlice",
+          "description": "QuoteSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "QuoteSlice",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "blockquote": {
+                  "config": {
+                    "label": "Blockquote",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "figCaption": {
+                  "config": {
+                    "label": "Fig Caption",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "withTwoColumn",
+              "name": "With Two Column",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "QuoteSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "description2": {
+                  "config": {
+                    "label": "Description2",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "blockquote": {
+                  "config": {
+                    "label": "Blockquote",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "figCaption": {
+                  "config": {
+                    "label": "Fig Caption",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "quote_slice",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+              },
+              "blockquote": [
+                {
+                  "type": "paragraph",
+                  "text": "Do qui esse adipisicing sit occaecat officia consectetur et dolore magna dolor minim qui. Aute esse laboris excepteur et sit aliqua fugiat id velit cillum voluptate incididunt consectetur.",
+                  "spans": []
+                }
+              ],
+              "figCaption": [
+                {
+                  "type": "paragraph",
+                  "text": "Ea sint labore minim est labore ex non adipisicing. Aliquip tempor non eiusmod sunt.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "withTwoColumn": {
+            "variation": "withTwoColumn",
+            "name": "With Two Column",
+            "slice_type": "quote_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Extend customized web services",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Cupidatat aliqua exercitation officia nulla eu non Lorem ad.",
+                  "spans": []
+                }
+              ],
+              "description2": [
+                {
+                  "type": "paragraph",
+                  "text": "Eu exercitation laboris sint exercitation. Laborum aliquip non nulla deserunt dolore minim ullamco nisi. Culpa labore et anim tempor do aliquip aute.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+              },
+              "blockquote": [
+                {
+                  "type": "paragraph",
+                  "text": "Elit eiusmod magna reprehenderit irure ut sunt cupidatat pariatur cupidatat occaecat deserunt elit. Cupidatat aliqua consectetur deserunt occaecat Lorem. Deserunt elit elit sit incididunt ex cupidatat ea laborum aliqua deserunt quis Lorem excepteur exercitation id.",
+                  "spans": []
+                }
+              ],
+              "figCaption": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliquip amet eu veniam in qui occaecat id eu reprehenderit commodo proident irure. Proident cupidatat elit cupidatat fugiat do ipsum est occaecat irure aute enim magna.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/gary_wu/Documents/work-space/marley-spoon-clone/.slicemachine/assets/slices/QuoteSlice/default/preview.png",
+            "width": 800,
+            "height": 645
+          },
+          "withTwoColumn": {
+            "path": "/Users/gary_wu/Documents/work-space/marley-spoon-clone/.slicemachine/assets/slices/QuoteSlice/withTwoColumn/preview.png",
+            "width": 800,
+            "height": 16
+          }
+        }
       },
       "testimonial_slice": {
         "library": "slices",

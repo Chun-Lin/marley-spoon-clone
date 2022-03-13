@@ -1,6 +1,7 @@
 import React from 'react';
 import { PrismicText } from '@prismicio/react';
 import styled from 'styled-components';
+import BlockQuote from '../../components/quote-section/BlockQuote';
 
 const ExampleBackground = styled.div`
   width: 100%;
@@ -43,36 +44,13 @@ const DescriptionWrapper = styled.p`
   }
 `;
 
-const BlockQuote = styled.blockquote`
-  position: relative;
-  font-size: 1.33rem;
-  line-height: 1.25em;
-  font-weight: 300;
-  margin-top: 56px;
-  margin-left: 60px;
-  text-align: left;
-
-  &:before {
-    position: absolute;
-    content: '“';
-    font-size: 120px;
-    top: 0;
-    left: 0;
-    line-height: 0.8;
-    font-weight: 300;
-    vertical-align: middle;
-    left: -60px;
-    color: rgba(255, 255, 255, 0.4);
-  }
-`;
-
 const ExampleSlice = ({ slice }) => {
   const { primary, variation } = slice;
   const { backgroundImage, title, description, description2, blockquote } =
     primary;
   const shouldShowTextOnTheLeft = variation === 'withTextLeft';
   const shouldShowDescription2 = description2?.length > 0;
-  const shouldSHowBlockQuote = blockquote?.length > 0;
+  const shouldShowBlockQuote = blockquote?.length > 0;
 
   return (
     <section>
@@ -90,8 +68,8 @@ const ExampleSlice = ({ slice }) => {
                 <PrismicText field={description2} />
               </DescriptionWrapper>
             )}
-            {shouldSHowBlockQuote && (
-              <BlockQuote>
+            {shouldShowBlockQuote && (
+              <BlockQuote color="rgba(255, 255, 255, 0.4)">
                 <PrismicText field={blockquote} />
               </BlockQuote>
             )}
