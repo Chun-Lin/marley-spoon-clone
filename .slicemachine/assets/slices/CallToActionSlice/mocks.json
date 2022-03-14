@@ -7,19 +7,29 @@
     "primary": {
       "title": [
         {
-          "type": "heading2",
-          "text": "Visualize user-centric convergence",
+          "type": "heading1",
+          "text": "Drive proactive mindshare",
           "spans": []
         }
       ],
-      "signupButton": {
+      "ctaBtnName": [
+        {
+          "type": "paragraph",
+          "text": "Ad occaecat non incididunt labore ad enim duis aute incididunt cillum exercitation officia aliqua. Nostrud irure in eiusmod occaecat adipisicing laboris voluptate labore nisi aliquip minim consequat pariatur.",
+          "spans": []
+        }
+      ],
+      "signupButtonLink": {
         "link_type": "Web",
-        "url": "http://google.com"
+        "url": "http://twitter.com"
       },
-      "bookDemoButton": {
-        "link_type": "Web",
-        "url": "https://slicemachine.dev"
-      }
+      "bookDemoDesc": [
+        {
+          "type": "paragraph",
+          "text": "Fugiat nulla velit excepteur nisi ea ad laboris id.",
+          "spans": []
+        }
+      ]
     }
   }
 ]

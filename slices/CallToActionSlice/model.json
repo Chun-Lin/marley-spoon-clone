@@ -17,24 +17,34 @@
             "label": "Title",
             "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
-            "single": "heading2"
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "signupButton": {
+        "ctaBtnName": {
           "config": {
-            "label": "Signup Button",
+            "label": "Cta Btn Name",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "signupButtonLink": {
+          "config": {
+            "label": "Signup Button Link",
             "placeholder": "",
             "allowTargetBlank": false
           },
           "type": "Link"
         },
-        "bookDemoButton": {
+        "bookDemoDesc": {
           "config": {
-            "label": "Book Demo Button",
+            "label": "Book Demo Desc",
             "placeholder": "",
-            "allowTargetBlank": false
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           },
-          "type": "Link"
+          "type": "StructuredText"
         }
       },
       "items": {}

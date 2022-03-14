@@ -25,24 +25,34 @@
                     "label": "Title",
                     "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
-                    "single": "heading2"
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   }
                 },
-                "signupButton": {
+                "ctaBtnName": {
                   "config": {
-                    "label": "Signup Button",
+                    "label": "Cta Btn Name",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "signupButtonLink": {
+                  "config": {
+                    "label": "Signup Button Link",
                     "placeholder": "",
                     "allowTargetBlank": false
                   },
                   "type": "Link"
                 },
-                "bookDemoButton": {
+                "bookDemoDesc": {
                   "config": {
-                    "label": "Book Demo Button",
+                    "label": "Book Demo Desc",
                     "placeholder": "",
-                    "allowTargetBlank": false
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   },
-                  "type": "Link"
+                  "type": "StructuredText"
                 }
               },
               "items": {}
@@ -58,19 +68,29 @@
             "primary": {
               "title": [
                 {
-                  "type": "heading2",
-                  "text": "Visualize user-centric convergence",
+                  "type": "heading1",
+                  "text": "Drive proactive mindshare",
                   "spans": []
                 }
               ],
-              "signupButton": {
+              "ctaBtnName": [
+                {
+                  "type": "paragraph",
+                  "text": "Ad occaecat non incididunt labore ad enim duis aute incididunt cillum exercitation officia aliqua. Nostrud irure in eiusmod occaecat adipisicing laboris voluptate labore nisi aliquip minim consequat pariatur.",
+                  "spans": []
+                }
+              ],
+              "signupButtonLink": {
                 "link_type": "Web",
-                "url": "http://google.com"
+                "url": "http://twitter.com"
               },
-              "bookDemoButton": {
-                "link_type": "Web",
-                "url": "https://slicemachine.dev"
-              }
+              "bookDemoDesc": [
+                {
+                  "type": "paragraph",
+                  "text": "Fugiat nulla velit excepteur nisi ea ad laboris id.",
+                  "spans": []
+                }
+              ]
             }
           }
         },
@@ -83,7 +103,7 @@
           "default": {
             "path": "/Users/gary_wu/Documents/work-space/marley-spoon-clone/.slicemachine/assets/slices/CallToActionSlice/default/preview.png",
             "width": 800,
-            "height": 66
+            "height": 32
           }
         }
       },
