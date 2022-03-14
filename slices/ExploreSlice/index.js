@@ -5,13 +5,16 @@ import styled from 'styled-components';
 import Card from '../../components/card/Card';
 
 const ExploreSection = styled.section`
-  max-width: 1080;
+  background-color: #f8f9fa;
+`;
+
+const ExploreWrapper = styled.div`
+  max-width: 1080px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 80px 40px;
-  background-color: #f8f9fa;
 `;
 
 const TitleWrapper = styled.div`
@@ -37,18 +40,20 @@ const ExploreSlice = ({ slice }) => {
 
   return (
     <ExploreSection>
-      <TitleWrapper>
-        <PrismicText field={title} />
-      </TitleWrapper>
-      <CardGrid>
-        {items.map((item) => {
-          const { avatar, cardTitle, cardLink } = item;
+      <ExploreWrapper>
+        <TitleWrapper>
+          <PrismicText field={title} />
+        </TitleWrapper>
+        <CardGrid>
+          {items.map((item) => {
+            const { avatar, cardTitle, cardLink } = item;
 
-          return (
-            <Card avatar={avatar} cardTitle={cardTitle} cardLink={cardLink} />
-          );
-        })}
-      </CardGrid>
+            return (
+              <Card avatar={avatar} cardTitle={cardTitle} cardLink={cardLink} />
+            );
+          })}
+        </CardGrid>
+      </ExploreWrapper>
     </ExploreSection>
   );
 };
