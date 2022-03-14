@@ -16,7 +16,7 @@ const CtaWrapper = styled.div`
   padding-bottom: 80px;
 `;
 
-const CtaTitle = styled.h2`
+const CtaTitle = styled.div`
   max-width: 440px;
   margin-bottom: 40px;
   font-size: 2rem;
@@ -49,7 +49,7 @@ const CtaButton = styled.button`
   }
 `;
 
-const BookDemoTextWrapper = styled.p`
+const BookDemoTextWrapper = styled.div`
   margin-top: 10px;
   font-size: 18px;
   color: #fff;
