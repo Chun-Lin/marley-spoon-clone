@@ -1,31 +1,55 @@
-import React from 'react'
-import { PrismicRichText } from '@prismicio/react'
+import React from 'react';
+import { PrismicText } from '@prismicio/react';
+import styled from 'styled-components';
 
-const ExploreSlice = ({ slice }) => (
-  <section>
-    <span className="title">
-      {
-        slice.primary.title ?
-        <PrismicRichText field={slice.primary.title}/>
-        : <h2>Template slice, update me!</h2>
-      }
-    </span>
-    {
-      slice.primary.description ?
-      <PrismicRichText field={slice.primary.description}/>
-      : <p>start by editing this slice from inside Slice Machine!</p>
-    }
-    <style jsx>{`
-        section {
-          max-width: 600px;
-          margin: 4em auto;
-          text-align: center;
-        }
-        .title {
-          color: #8592e0;
-        }
-    `}</style>
-  </section>
-)
+import Card from '../../components/card/Card';
 
-export default ExploreSlice
+const ExploreSection = styled.section`
+  max-width: 1080;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 40px;
+`;
+
+const TitleWrapper = styled.div`
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 0.83rem;
+  font-weight: 700;
+  color: #848f9d;
+`;
+
+const CardGrid = styled.div`
+  width: calc(100% / 6 * 5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 32px;
+  padding: 16px 20px;
+`;
+
+const ExploreSlice = ({ slice }) => {
+  const { primary, items } = slice;
+  const { title } = primary;
+
+  return (
+    <ExploreSection>
+      <TitleWrapper>
+        <PrismicText field={title} />
+      </TitleWrapper>
+      <CardGrid>
+        {items.map((item) => {
+          const { avatar, cardTitle, cardLink } = item;
+
+          return (
+            <Card avatar={avatar} cardTitle={cardTitle} cardLink={cardLink} />
+          );
+        })}
+      </CardGrid>
+    </ExploreSection>
+  );
+};
+
+export default ExploreSlice;
