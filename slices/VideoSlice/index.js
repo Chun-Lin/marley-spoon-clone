@@ -18,12 +18,13 @@ const Iframe = styled.iframe`
 
 const VideoSlice = ({ slice }) => {
   const { primary, variation } = slice;
-  const { videoSrc } = primary;
+  const { youtubeId } = primary;
+  
   return (
     <VideoSection>
       <Iframe
         loading="lazy"
-        src={videoSrc.url}
+        src={`https://www.youtube.com/embed/${youtubeId}?modestbranding=1&enablejsapi=1&origin=https://www.edapp.com`}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

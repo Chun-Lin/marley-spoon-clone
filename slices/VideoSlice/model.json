@@ -11,12 +11,12 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "VideoSlice",
       "primary": {
-        "videoSrc": {
+        "youtubeId": {
           "config": {
-            "label": "Video Src",
+            "label": "Youtube Id",
             "placeholder": ""
           },
-          "type": "Embed"
+          "type": "Text"
         }
       },
       "items": {}
