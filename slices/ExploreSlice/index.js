@@ -11,6 +11,7 @@ const ExploreSection = styled.section`
   flex-direction: column;
   align-items: center;
   padding: 80px 40px;
+  background-color: #f8f9fa;
 `;
 
 const TitleWrapper = styled.div`
