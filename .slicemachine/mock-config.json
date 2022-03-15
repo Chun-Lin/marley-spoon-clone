@@ -130,9 +130,28 @@
       "default": {
         "primary": {}
       }
+    },
+    "Footer": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "FooterSlice": {
+      "default": {
+        "primary": {},
+        "items": {
+          "footerTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
     }
   },
   "_cts": {
-    "case-studies": {}
+    "case-studies": {},
+    "footer": {}
   }
 }

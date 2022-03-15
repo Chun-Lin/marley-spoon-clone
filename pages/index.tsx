@@ -1,13 +1,15 @@
-import styled from 'styled-components'
-import { SliceZone } from "@prismicio/react";
+import styled from 'styled-components';
+import { PrismicText, SliceZone } from '@prismicio/react';
 
-import { components } from "../slices/index.js";
-import { createClient } from "../prismicio";
+import { components } from '../slices/index.js';
+import { createClient } from '../prismicio';
+import Footer from '../components/footer/Footer';
 
-const Home = ({ slices }) => {
+const Home = ({ mainSlices, footer }) => {
   return (
     <div>
-      <SliceZone slices={slices} components={components} />
+      <SliceZone slices={mainSlices} components={components} />
+      <Footer footerData={footer.data} />
     </div>
   );
 };
@@ -15,14 +17,15 @@ const Home = ({ slices }) => {
 export async function getStaticProps({ previewData }) {
   const client = createClient({ previewData });
 
-  const caseStudies = await client.getSingle("case-studies");
+  const caseStudies = await client.getSingle('case-studies');
+  const footer = await client.getSingle('footer');
 
   return {
     props: {
-      slices: caseStudies.data.slices,
+      mainSlices: caseStudies.data.slices,
+      footer,
     },
   };
 }
 
 export default Home;
-

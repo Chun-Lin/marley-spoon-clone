@@ -3,6 +3,7 @@
 import CallToActionSlice from './CallToActionSlice';
 import ExampleSlice from './ExampleSlice';
 import ExploreSlice from './ExploreSlice';
+import FooterSlice from './FooterSlice';
 import IntroductionSlice from './IntroductionSlice';
 import QuoteSlice from './QuoteSlice';
 import TestimonialSlice from './TestimonialSlice';
@@ -12,6 +13,7 @@ export {
 	CallToActionSlice,
 	ExampleSlice,
 	ExploreSlice,
+	FooterSlice,
 	IntroductionSlice,
 	QuoteSlice,
 	TestimonialSlice,
@@ -22,6 +24,7 @@ export const components = {
 	call_to_action_slice: CallToActionSlice,
 	example_slice: ExampleSlice,
 	explore_slice: ExploreSlice,
+	footer_slice: FooterSlice,
 	introduction_slice: IntroductionSlice,
 	quote_slice: QuoteSlice,
 	testimonial_slice: TestimonialSlice,

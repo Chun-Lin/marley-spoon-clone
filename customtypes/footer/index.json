@@ -1,0 +1,103 @@
+{
+  "id": "footer",
+  "label": "footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "appleStore": {
+        "config": {
+          "label": "Apple Store",
+          "placeholder": "",
+          "fields": {
+            "appleStoreLink": {
+              "config": {
+                "label": "Apple Store Link",
+                "placeholder": "",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "appleStoreImage": {
+              "config": {
+                "label": "Apple Store Image",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "googlePlayStore": {
+        "config": {
+          "label": "Google Play Store",
+          "placeholder": "",
+          "fields": {
+            "googlePlayStoreLink": {
+              "config": {
+                "label": "Google Play Store Link",
+                "placeholder": "",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "googlePlayStoreImage": {
+              "config": {
+                "label": "Google Play Store Image",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "edLearning": {
+        "config": {
+          "label": "Ed Learning",
+          "placeholder": "",
+          "fields": {
+            "edLearningLink": {
+              "config": {
+                "label": "Ed Learning Link",
+                "placeholder": "",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "edLearningImage": {
+              "config": {
+                "label": "Ed Learning Image",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "footer_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

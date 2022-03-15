@@ -584,6 +584,132 @@
           }
         }
       },
+      "footer_slice": {
+        "library": "slices",
+        "id": "footer_slice",
+        "name": "FooterSlice",
+        "description": "FooterSlice",
+        "model": {
+          "id": "footer_slice",
+          "type": "SharedSlice",
+          "name": "FooterSlice",
+          "description": "FooterSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FooterSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                }
+              },
+              "items": {
+                "footerTitle": {
+                  "config": {
+                    "label": "Footer Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading4"
+                  },
+                  "type": "StructuredText"
+                },
+                "footerLink": {
+                  "config": {
+                    "label": "Footer Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "footer_slice",
+            "items": [
+              {
+                "footerTitle": [
+                  {
+                    "type": "heading4",
+                    "text": "Facilitate viral portals",
+                    "spans": []
+                  }
+                ],
+                "footerLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "footerTitle": [
+                  {
+                    "type": "heading4",
+                    "text": "Leverage world-class bandwidth",
+                    "spans": []
+                  }
+                ],
+                "footerLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "footerTitle": [
+                  {
+                    "type": "heading4",
+                    "text": "Recontextualize next-generation mindshare",
+                    "spans": []
+                  }
+                ],
+                "footerLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "footerTitle": [
+                  {
+                    "type": "heading4",
+                    "text": "Facilitate sexy e-tailers",
+                    "spans": []
+                  }
+                ],
+                "footerLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Cultivate back-end convergence",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "introduction_slice": {
         "library": "slices",
         "id": "introduction_slice",
