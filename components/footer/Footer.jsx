@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { PrismicRichText, PrismicText, SliceZone } from '@prismicio/react';
 import { components } from '../../slices/index';
 import FooterSlice from '../../slices/FooterSlice';
+import StoreBadge from './StoreBadge';
 
 const FooterSection = styled.footer`
   max-width: 1080px;
@@ -80,20 +81,6 @@ const StoreBadgeWrapper = styled.div`
   gap: 8px;
   margin: 16px 0;
 `;
-
-const StoreBadge = ({ link, image }) => {
-  return (
-    <a href={link} target="_blank" rel="noopener">
-      <img
-        loading="lazy"
-        src={image.url}
-        alt={image.alt}
-        width="156"
-        height="48"
-      />
-    </a>
-  );
-};
 
 const Footer = ({ footerData }) => {
   const { slices, appleStore, googlePlayStore, edLearning } = footerData;
