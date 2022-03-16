@@ -18,8 +18,29 @@ const ExampleWrapper = styled.div`
   display: flex;
   justify-content: ${(props) =>
     props.withTextLeft ? 'flex-start' : 'flex-end'};
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    padding: 60px 0;
+    color: #ffffff;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      background-color: #152231;
+      opacity: 0.7;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 40px;
+  }
 `;
 
 const TextWrapper = styled.div`
@@ -27,6 +48,11 @@ const TextWrapper = styled.div`
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    z-index: 1;
+  }
 `;
 
 const ExampleTitle = styled.h2`

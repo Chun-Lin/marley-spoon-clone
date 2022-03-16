@@ -5,7 +5,6 @@ const BlockQuote = styled.blockquote<{ color?: string }>`
   font-size: 1.33rem;
   line-height: 1.25em;
   font-weight: 300;
-  margin-top: 56px;
   margin-left: 60px;
   text-align: left;
 

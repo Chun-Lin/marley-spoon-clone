@@ -10,14 +10,26 @@ const QuoteSectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  gap: 40px;
+  padding: 120px 0;
   line-height: 1.6;
   text-align: left;
+
+  @media screen and (max-width: 768px) {
+    padding: 80px 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 60px 20px;
+  }
 `;
 
 const TopArea = styled.div`
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const TextWrapper = styled.div`
@@ -53,6 +65,11 @@ const Image = styled.img`
 
 const BlockquoteWrapper = styled.div`
   width: calc(100% / 3 * 2);
+  padding: 0 20px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const QuoteSectionTwoColumn = ({

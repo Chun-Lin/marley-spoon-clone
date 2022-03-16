@@ -28,6 +28,10 @@ const CtaTitle = styled.div`
   strong {
     font-weight: 600;
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const CtaButton = styled.button`

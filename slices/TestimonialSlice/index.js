@@ -9,6 +9,14 @@ const TestimonialSection = styled.section`
   align-items: center;
   padding: 80px 40px;
   line-height: 1.6;
+
+  @media screen and (max-width: 768px) {
+    padding: 60px 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 40px;
+  }
 `;
 
 const TitleWrapper = styled.div`
@@ -21,6 +29,10 @@ const TitleWrapper = styled.div`
 const TestimonialListWrapper = styled.div`
   display: flex;
   gap: 40px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const TestimonialBox = styled.div`

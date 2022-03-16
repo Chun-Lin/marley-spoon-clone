@@ -15,6 +15,14 @@ const ExploreWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 80px 40px;
+
+  @media screen and (max-width: 768px) {
+    padding: 60px 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 40px;
+  }
 `;
 
 const TitleWrapper = styled.div`
@@ -32,6 +40,11 @@ const CardGrid = styled.div`
   grid-column-gap: 40px;
   grid-row-gap: 32px;
   padding: 16px 20px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 `;
 
 const ExploreSlice = ({ slice }) => {

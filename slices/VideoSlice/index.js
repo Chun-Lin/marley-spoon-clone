@@ -7,19 +7,26 @@ const VideoSection = styled.section`
   margin: auto;
   display: flex;
   justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
+
+  @media screen and (max-width: 7680px) {
+    padding: 60px 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 40px 20px;
+  }
 `;
 
 const Iframe = styled.iframe`
-  width: calc(100% / 6 * 5);%;
+  width: calc(100% / 6 * 5);
   aspect-ratio: 16 / 9;
 `;
 
 const VideoSlice = ({ slice }) => {
   const { primary, variation } = slice;
   const { youtubeId } = primary;
-  
+
   return (
     <VideoSection>
       <Iframe

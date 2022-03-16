@@ -14,10 +14,22 @@ const QuoteSectionWrapper = styled.section`
   padding-bottom: 40px;
   line-height: 1.6;
   text-align: left;
+
+  @media screen and (max-width: 768px) {
+    padding: 40px 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 40px;
+  }
 `;
 
 const Image = styled.img`
   width: calc(100% / 3 * 2);
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const BlockQuoteWrapper = styled.div`
@@ -26,6 +38,11 @@ const BlockQuoteWrapper = styled.div`
 
 const Figure = styled.figure`
   width: 50%;
+  padding: 40px 0;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const FigCaption = styled.figcaption`
