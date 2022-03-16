@@ -584,6 +584,74 @@
           }
         }
       },
+      "first_level_nav_slice": {
+        "library": "slices",
+        "id": "first_level_nav_slice",
+        "name": "FirstLevelNavSlice",
+        "description": "FirstLevelNavSlice",
+        "model": {
+          "id": "first_level_nav_slice",
+          "type": "SharedSlice",
+          "name": "FirstLevelNavSlice",
+          "description": "FirstLevelNavSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FirstLevelNavSlice",
+              "primary": {
+                "firstLevelNavTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "First Level Nav Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "firstLevelNavLink": {
+                  "config": {
+                    "label": "First Level Nav Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "first_level_nav_slice",
+            "items": [],
+            "primary": {
+              "firstLevelNavTitle": [
+                {
+                  "type": "paragraph",
+                  "text": "In nisi reprehenderit voluptate nulla aliqua veniam duis sint aliquip.",
+                  "spans": []
+                }
+              ],
+              "firstLevelNavLink": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "footer_slice": {
         "library": "slices",
         "id": "footer_slice",
@@ -1026,6 +1094,158 @@
             "height": 16
           }
         }
+      },
+      "second_level_nav_slice": {
+        "library": "slices",
+        "id": "second_level_nav_slice",
+        "name": "SecondLevelNavSlice",
+        "description": "SecondLevelNavSlice",
+        "model": {
+          "id": "second_level_nav_slice",
+          "type": "SharedSlice",
+          "name": "SecondLevelNavSlice",
+          "description": "SecondLevelNavSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SecondLevelNavSlice",
+              "primary": {
+                "secondLevelNavTitle": {
+                  "config": {
+                    "label": "Second Level Nav Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "secondLevelNavLink": {
+                  "config": {
+                    "label": "Second Level Nav Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {
+                "thirdLevelNavTitle": {
+                  "config": {
+                    "label": "Third Level Nav Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "thirdLevelNavLink": {
+                  "config": {
+                    "label": "Third Level Nav Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "second_level_nav_slice",
+            "items": [
+              {
+                "thirdLevelNavTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolore aliqua ex labore sunt id eiusmod culpa ex duis nisi. Velit consectetur culpa sit mollit ea duis eu. Adipisicing non consectetur enim sint est occaecat laborum deserunt ullamco occaecat cillum culpa enim nulla sit.",
+                    "spans": []
+                  }
+                ],
+                "thirdLevelNavLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "thirdLevelNavTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Eiusmod incididunt fugiat quis id culpa laborum elit mollit aliquip incididunt aliqua anim ad adipisicing qui. Eu sint deserunt sunt exercitation do minim nostrud aliqua labore incididunt proident. Magna laborum cupidatat Lorem adipisicing ut cillum deserunt est non tempor minim.",
+                    "spans": []
+                  }
+                ],
+                "thirdLevelNavLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "thirdLevelNavTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sint excepteur do eu elit ipsum incididunt. Ad sunt magna amet aute enim dolore consectetur veniam eu exercitation commodo. Consequat consequat mollit pariatur incididunt dolor eu.",
+                    "spans": []
+                  }
+                ],
+                "thirdLevelNavLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "thirdLevelNavTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolore sunt dolore est sit occaecat aliquip voluptate velit voluptate fugiat consequat cupidatat et commodo. Nostrud commodo nisi culpa ex. Laborum nostrud reprehenderit consectetur excepteur ex aliqua.",
+                    "spans": []
+                  }
+                ],
+                "thirdLevelNavLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "thirdLevelNavTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ut ea irure mollit in deserunt nostrud occaecat duis elit proident nostrud officia nulla voluptate pariatur.",
+                    "spans": []
+                  }
+                ],
+                "thirdLevelNavLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              }
+            ],
+            "primary": {
+              "secondLevelNavTitle": [
+                {
+                  "type": "paragraph",
+                  "text": "Amet sint esse esse quis consequat non aliqua Lorem magna anim occaecat ullamco. Quis ad labore aliqua officia sit sunt esse qui labore minim culpa.",
+                  "spans": []
+                }
+              ],
+              "secondLevelNavLink": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
       },
       "testimonial_slice": {
         "library": "slices",

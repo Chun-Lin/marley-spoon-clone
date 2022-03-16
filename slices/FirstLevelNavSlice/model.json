@@ -1,0 +1,35 @@
+{
+  "id": "first_level_nav_slice",
+  "type": "SharedSlice",
+  "name": "FirstLevelNavSlice",
+  "description": "FirstLevelNavSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FirstLevelNavSlice",
+      "primary": {
+        "firstLevelNavTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "First Level Nav Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "firstLevelNavLink": {
+          "config": {
+            "label": "First Level Nav Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

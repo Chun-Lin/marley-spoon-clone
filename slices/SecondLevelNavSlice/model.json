@@ -1,0 +1,53 @@
+{
+  "id": "second_level_nav_slice",
+  "type": "SharedSlice",
+  "name": "SecondLevelNavSlice",
+  "description": "SecondLevelNavSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SecondLevelNavSlice",
+      "primary": {
+        "secondLevelNavTitle": {
+          "config": {
+            "label": "Second Level Nav Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "secondLevelNavLink": {
+          "config": {
+            "label": "Second Level Nav Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "items": {
+        "thirdLevelNavTitle": {
+          "config": {
+            "label": "Third Level Nav Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "thirdLevelNavLink": {
+          "config": {
+            "label": "Third Level Nav Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

@@ -148,10 +148,32 @@
           }
         }
       }
+    },
+    "NavigationSlice": {},
+    "FirstLevelNavSlice": {
+      "default": {
+        "primary": {
+          "firstLevelNavTitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "2ndLevelNavSlice": {},
+    "SecondLevelNavSlice": {
+      "default": {
+        "primary": {}
+      }
     }
   },
   "_cts": {
     "case-studies": {},
-    "footer": {}
+    "footer": {},
+    "navigation": {
+      "login": {}
+    }
   }
 }

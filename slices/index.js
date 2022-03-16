@@ -3,9 +3,11 @@
 import CallToActionSlice from './CallToActionSlice';
 import ExampleSlice from './ExampleSlice';
 import ExploreSlice from './ExploreSlice';
+import FirstLevelNavSlice from './FirstLevelNavSlice';
 import FooterSlice from './FooterSlice';
 import IntroductionSlice from './IntroductionSlice';
 import QuoteSlice from './QuoteSlice';
+import SecondLevelNavSlice from './SecondLevelNavSlice';
 import TestimonialSlice from './TestimonialSlice';
 import VideoSlice from './VideoSlice';
 
@@ -13,9 +15,11 @@ export {
 	CallToActionSlice,
 	ExampleSlice,
 	ExploreSlice,
+	FirstLevelNavSlice,
 	FooterSlice,
 	IntroductionSlice,
 	QuoteSlice,
+	SecondLevelNavSlice,
 	TestimonialSlice,
 	VideoSlice,
 };
@@ -24,9 +28,11 @@ export const components = {
 	call_to_action_slice: CallToActionSlice,
 	example_slice: ExampleSlice,
 	explore_slice: ExploreSlice,
+	first_level_nav_slice: FirstLevelNavSlice,
 	footer_slice: FooterSlice,
 	introduction_slice: IntroductionSlice,
 	quote_slice: QuoteSlice,
+	second_level_nav_slice: SecondLevelNavSlice,
 	testimonial_slice: TestimonialSlice,
 	video_slice: VideoSlice,
 };
