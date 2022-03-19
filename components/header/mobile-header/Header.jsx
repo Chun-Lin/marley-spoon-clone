@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import styled from 'styled-components';
 import { PrismicRichText, PrismicText, SliceZone } from '@prismicio/react';
 
@@ -6,6 +6,7 @@ import MobileMenuDropdown from './MobileMenuDropdown';
 import MobileSubMenuDropdown from './MobileSubMenuDropdown';
 import HamburgerMenuIcon from './HamburgerMenuIcon';
 import { useScrollPosition } from '../../../hooks';
+import { generateMenuLevels } from '../utils';
 
 const StickyHeader = styled.header`
   position: sticky;
@@ -154,29 +155,8 @@ const Header = ({ navigationData }) => {
   const { headerBgImage, login, logoImage, logoHoverImage, signup, slices } =
     navigationData || {};
 
-  let firstLevel = [];
-  let secondLevel = {};
-  slices.forEach((slice, index) => {
-    if (slice.slice_type === 'first_level_nav_slice') {
-      firstLevel.push(slice.primary);
-    }
-
-    if (slice.slice_type === 'second_level_nav_slice') {
-      const firstLevelIndex = firstLevel.length - 1;
-
-      if (secondLevel[firstLevelIndex]) {
-        secondLevel[firstLevelIndex].push({
-          primary: slice.primary,
-          items: slice.items,
-        });
-      } else {
-        secondLevel[firstLevelIndex] = [];
-        secondLevel[firstLevelIndex].push({
-          primary: slice.primary,
-          items: slice.items,
-        });
-      }
-    }
+  const { firstLevel, secondLevel } = useMemo(() => {
+    return generateMenuLevels(slices);
   });
 
   const [shouldShowMenuDropdown, setShouldShowMenuDropdown] = useState(false);
