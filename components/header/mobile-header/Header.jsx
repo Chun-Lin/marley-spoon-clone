@@ -5,6 +5,7 @@ import { PrismicRichText, PrismicText, SliceZone } from '@prismicio/react';
 import MobileMenuDropdown from './MobileMenuDropdown';
 import MobileSubMenuDropdown from './MobileSubMenuDropdown';
 import HamburgerMenuIcon from './HamburgerMenuIcon';
+import { useScrollPosition } from '../../../hooks';
 
 const StickyHeader = styled.header`
   position: sticky;
@@ -182,6 +183,9 @@ const Header = ({ navigationData }) => {
   const [shouldOpenMenu, setShouldOpenMenu] = useState(false);
   const [menuIndex, setMenuIndex] = useState(null);
 
+  const scrollPosition = useScrollPosition();
+  const shouldChangeHeaderStyle = scrollPosition > 20;
+
   const signUpBtnHandler = ({ url }) => {
     window.location.href = url;
   };
@@ -189,22 +193,6 @@ const Header = ({ navigationData }) => {
   const menuClickHandler = () => {
     setShouldOpenMenu;
   };
-
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollPosition(position);
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const shouldChangeHeaderStyle = scrollPosition > 20;
 
   return (
     <StickyHeader shouldChangeHeaderStyle={shouldChangeHeaderStyle}>

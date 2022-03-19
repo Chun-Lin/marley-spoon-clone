@@ -1,18 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { PrismicText, SliceZone } from '@prismicio/react';
 
 import { components } from '../slices/index.js';
 import { createClient } from '../prismicio';
+import { useMediaQuery } from '../hooks';
 import Footer from '../components/footer/Footer';
-// import Header from '../components/header/desktop-header/Header';
-import Header from '../components/header/mobile-header/Header';
-
+import DesktopHeader from '../components/header/desktop-header/Header';
+import MobileHeader from '../components/header/mobile-header/Header';
 
 const Home = ({ mainSlices, footer, navigation }) => {
+  const { isMatch: shouldShowMobileHeader } = useMediaQuery({
+    mediaQuery: '(max-width: 1140px)',
+  });
+
   return (
     <div>
-      <Header navigationData={navigation.data} />
+      {shouldShowMobileHeader ? (
+        <MobileHeader navigationData={navigation.data} />
+      ) : (
+        <DesktopHeader navigationData={navigation.data} />
+      )}
       <SliceZone slices={mainSlices} components={components} />
       <Footer footerData={footer.data} />
     </div>
