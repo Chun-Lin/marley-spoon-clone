@@ -4,8 +4,7 @@ import styled from 'styled-components';
 const BarIcon = styled.div`
   width: 24px;
   height: 2px;
-
-  background-color: #a9b2bf;
+  background-color: #ffffff;
 `;
 
 const BurgerIconWrapper = styled.div.attrs((props) => ({

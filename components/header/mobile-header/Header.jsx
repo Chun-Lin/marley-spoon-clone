@@ -10,7 +10,8 @@ import { useScrollPosition } from '../../../hooks';
 import { generateMenuLevels } from '../utils';
 
 const StickyHeader = styled.header`
-  position: sticky;
+  width: 100vw;
+  position: fixed;
   top: 0;
   background-color: ${(props) =>
     props.shouldChangeHeaderStyle ? '#ffffff' : 'transparent'};
