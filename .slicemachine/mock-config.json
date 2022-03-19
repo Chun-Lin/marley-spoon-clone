@@ -1,7 +1,11 @@
 {
   "slices": {
     "Banner": {},
-    "BannerSlice": {},
+    "BannerSlice": {
+      "default": {
+        "primary": {}
+      }
+    },
     "IntroductionSlice": {
       "default": {
         "primary": {

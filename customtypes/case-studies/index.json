@@ -37,6 +37,9 @@
             },
             "video_slice": {
               "type": "SharedSlice"
+            },
+            "banner_slice": {
+              "type": "SharedSlice"
             }
           }
         }

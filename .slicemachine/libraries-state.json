@@ -1,6 +1,63 @@
 {
   "slices": {
     "components": {
+      "banner_slice": {
+        "library": "slices",
+        "id": "banner_slice",
+        "name": "BannerSlice",
+        "description": "BannerSlice",
+        "model": {
+          "id": "banner_slice",
+          "type": "SharedSlice",
+          "name": "BannerSlice",
+          "description": "BannerSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BannerSlice",
+              "primary": {
+                "bannerImage": {
+                  "config": {
+                    "label": "Banner Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "banner_slice",
+            "items": [],
+            "primary": {
+              "bannerImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "call_to_action_slice": {
         "library": "slices",
         "id": "call_to_action_slice",
