@@ -20,6 +20,14 @@
         },
         "type": "Image"
       },
+      "logoHoverImage": {
+        "config": {
+          "label": "Logo Hover Image",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
       "login": {
         "config": {
           "label": "Login",

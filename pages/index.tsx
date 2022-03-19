@@ -1,17 +1,18 @@
+import React, { useRef } from 'react';
 import styled from 'styled-components';
 import { PrismicText, SliceZone } from '@prismicio/react';
 
 import { components } from '../slices/index.js';
 import { createClient } from '../prismicio';
 import Footer from '../components/footer/Footer';
-import Header from '../components/header/Header';
+import Header from '../components/header/desktop-header/Header';
 
 const Home = ({ mainSlices, footer, navigation }) => {
   return (
     <div>
+      <Header navigationData={navigation.data} />
       <SliceZone slices={mainSlices} components={components} />
       <Footer footerData={footer.data} />
-      <Header navigationData={navigation.data} />
     </div>
   );
 };
