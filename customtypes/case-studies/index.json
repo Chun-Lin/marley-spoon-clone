@@ -40,6 +40,9 @@
             },
             "banner_slice": {
               "type": "SharedSlice"
+            },
+            "sticky_promotion_slice": {
+              "type": "SharedSlice"
             }
           }
         }

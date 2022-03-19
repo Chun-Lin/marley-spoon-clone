@@ -171,6 +171,18 @@
       "default": {
         "primary": {}
       }
+    },
+    "StickyPromotionSlice": {
+      "default": {
+        "primary": {
+          "promoTitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
     }
   },
   "_cts": {

@@ -9,6 +9,7 @@ import FooterSlice from './FooterSlice';
 import IntroductionSlice from './IntroductionSlice';
 import QuoteSlice from './QuoteSlice';
 import SecondLevelNavSlice from './SecondLevelNavSlice';
+import StickyPromotionSlice from './StickyPromotionSlice';
 import TestimonialSlice from './TestimonialSlice';
 import VideoSlice from './VideoSlice';
 
@@ -22,6 +23,7 @@ export {
 	IntroductionSlice,
 	QuoteSlice,
 	SecondLevelNavSlice,
+	StickyPromotionSlice,
 	TestimonialSlice,
 	VideoSlice,
 };
@@ -36,6 +38,7 @@ export const components = {
 	introduction_slice: IntroductionSlice,
 	quote_slice: QuoteSlice,
 	second_level_nav_slice: SecondLevelNavSlice,
+	sticky_promotion_slice: StickyPromotionSlice,
 	testimonial_slice: TestimonialSlice,
 	video_slice: VideoSlice,
 };

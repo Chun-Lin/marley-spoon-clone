@@ -1304,6 +1304,107 @@
         },
         "screenshotPaths": {}
       },
+      "sticky_promotion_slice": {
+        "library": "slices",
+        "id": "sticky_promotion_slice",
+        "name": "StickyPromotionSlice",
+        "description": "StickyPromotionSlice",
+        "model": {
+          "id": "sticky_promotion_slice",
+          "type": "SharedSlice",
+          "name": "StickyPromotionSlice",
+          "description": "StickyPromotionSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "StickyPromotionSlice",
+              "primary": {
+                "promoTitle": {
+                  "config": {
+                    "label": "Promo Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "strong"
+                  },
+                  "type": "StructuredText"
+                },
+                "ctaText": {
+                  "config": {
+                    "label": "Cta Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "ctaLink": {
+                  "config": {
+                    "label": "Cta Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "bgImage": {
+                  "config": {
+                    "label": "Bg Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "sticky_promotion_slice",
+            "items": [],
+            "primary": {
+              "promoTitle": [
+                {
+                  "type": "paragraph",
+                  "text": "Excepteur minim commodo exercitation cillum consectetur aliqua culpa.",
+                  "spans": []
+                }
+              ],
+              "ctaText": [
+                {
+                  "type": "paragraph",
+                  "text": "Aute irure excepteur dolore aliqua qui officia eu incididunt eu nostrud ipsum sint ex commodo. Pariatur veniam laborum dolore laboris velit tempor. Excepteur elit sint pariatur est non aliqua aliqua nostrud.",
+                  "spans": []
+                }
+              ],
+              "ctaLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "bgImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "testimonial_slice": {
         "library": "slices",
         "id": "testimonial_slice",

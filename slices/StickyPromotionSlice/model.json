@@ -1,0 +1,52 @@
+{
+  "id": "sticky_promotion_slice",
+  "type": "SharedSlice",
+  "name": "StickyPromotionSlice",
+  "description": "StickyPromotionSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "StickyPromotionSlice",
+      "primary": {
+        "promoTitle": {
+          "config": {
+            "label": "Promo Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "strong"
+          },
+          "type": "StructuredText"
+        },
+        "ctaText": {
+          "config": {
+            "label": "Cta Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Cta Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "bgImage": {
+          "config": {
+            "label": "Bg Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
