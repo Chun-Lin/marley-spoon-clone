@@ -193,7 +193,9 @@ const Header = ({ navigationData }) => {
           <Logo
             as="a"
             href="https://www.edapp.com/"
-            logoImgSrc={logoImage.url}
+            logoImgSrc={
+              shouldChangeHeaderStyle ? logoHoverImage.url : logoImage.url
+            }
             logoHoverImgSrc={logoHoverImage.url}
           />
           <nav>
