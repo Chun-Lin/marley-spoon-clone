@@ -1,0 +1,28 @@
+{
+  "slice_type": "introduction_slice",
+  "slice_label": null,
+  "version": "sktwi1xtmkfgx8626",
+  "variation": "default",
+  "primary": {
+    "caseTitleImage": {
+      "dimensions": { "width": 560, "height": 80 },
+      "alt": "Marley Spoon Title",
+      "copyright": null,
+      "url": "https://images.prismic.io/marley-spoon-clone/ed17ac07-8480-4113-9476-1a305b49675d_case-title-image.png?auto=compress,format"
+    },
+    "title": [
+      { "type": "heading1", "text": "EdApp & Marley Spoon", "spans": [] }
+    ],
+    "subTitle": [
+      { "type": "paragraph", "text": "A food Services Case Study", "spans": [] }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "This is how Marley Spoon leveraged EdApp to onboard hundreds of new employees to support the unprecedented growth brought on by COVID-19.",
+        "spans": []
+      }
+    ]
+  },
+  "items": [{}]
+}

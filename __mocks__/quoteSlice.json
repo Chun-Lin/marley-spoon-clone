@@ -1,0 +1,44 @@
+{
+  "slice_type": "quote_slice",
+  "slice_label": null,
+  "version": "sktwi1xtmkfgx8626",
+  "variation": "withTwoColumn",
+  "primary": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Why EdApp works for the food delivery and food manufacturing industries",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "For companies like Marley Spoon who are dealing with food, health and safety is always a priority. EdApp microlessons allow learners to complete important lessons anytime, anywhere in small, digestible chunks. What’s more, content can be revisited regularly to ensure processes are completed and, more importantly, understood.",
+        "spans": []
+      }
+    ],
+    "description2": [
+      {
+        "type": "paragraph",
+        "text": "Whether employees are on-site at production centres, out delivering product or at the office, dispersed teams can complete their EdApp microlessons in five minutes or so, and revisit when it suits them. Lessons can be created, edited, and deployed to cohorts ensuring that all team members have the most up-to-date content at all times. The best part? All this can be done on learners’ mobile devices.",
+        "spans": []
+      }
+    ],
+    "image": {
+      "dimensions": { "width": 2000, "height": 2000 },
+      "alt": "Phone Image",
+      "copyright": null,
+      "url": "https://images.prismic.io/marley-spoon-clone/6237dc58-7a9c-4fef-a044-edcb320fc367_ms-lesson.png?auto=compress,format"
+    },
+    "blockquote": [
+      {
+        "type": "paragraph",
+        "text": "Food business and manufacturing are very fast-paced environments. So having a product [like EdApp] that can keep up with these changes is extremely valuable.",
+        "spans": []
+      }
+    ],
+    "figCaption": []
+  },
+  "items": [{}]
+}

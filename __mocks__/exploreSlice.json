@@ -1,0 +1,84 @@
+{
+  "slice_type": "explore_slice",
+  "slice_label": null,
+  "version": "sktwi1xtmkfgx8626",
+  "variation": "default",
+  "primary": {
+    "title": [{ "type": "heading5", "text": "EXPLORE MORE", "spans": [] }]
+  },
+  "items": [
+    {
+      "avatar": {
+        "dimensions": { "width": 130, "height": 130 },
+        "alt": "Global Flights",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/bd4d7a7e-fbeb-4546-97c3-572dc4e66188_global-clients-thumbnail.jpeg?auto=compress,format"
+      },
+      "cardTitle": [
+        {
+          "type": "paragraph",
+          "text": "Hear from some of our Global Clients",
+          "spans": []
+        }
+      ],
+      "cardLink": {
+        "link_type": "Web",
+        "url": "https://www.edapp.com/our-clients/"
+      }
+    },
+    {
+      "avatar": {
+        "dimensions": { "width": 130, "height": 130 },
+        "alt": "A computer",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/573b9e5c-a463-43f0-bac8-eb5ce2d68213_solutions-consultants-thumbnail.jpeg?auto=compress,format"
+      },
+      "cardTitle": [
+        {
+          "type": "paragraph",
+          "text": "Book in a demonstration with one of our Solutions Consultants",
+          "spans": []
+        }
+      ],
+      "cardLink": { "link_type": "Web", "url": "mailto:demo@edapp.com" }
+    },
+    {
+      "avatar": {
+        "dimensions": { "width": 130, "height": 130 },
+        "alt": "Demo Thumbnail",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/138f03d7-a280-437b-9deb-359b08fd1b69_demo-thumbnail.jpeg?auto=compress,format"
+      },
+      "cardTitle": [
+        {
+          "type": "paragraph",
+          "text": "See live authoring demonstrations on our YouTube page",
+          "spans": []
+        }
+      ],
+      "cardLink": {
+        "link_type": "Web",
+        "url": "https://www.youtube.com/c/EdAppMicrolearning/"
+      }
+    },
+    {
+      "avatar": {
+        "dimensions": { "width": 130, "height": 130 },
+        "alt": "Review Thumbnail",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/b9d517fa-26a0-4422-ad6d-494e44190839_review-thumbnail.jpeg?auto=compress,format"
+      },
+      "cardTitle": [
+        {
+          "type": "paragraph",
+          "text": "Read independent reviews of our platform on G2 Crowd",
+          "spans": []
+        }
+      ],
+      "cardLink": {
+        "link_type": "Web",
+        "url": "https://www.g2.com/products/edapp/reviews"
+      }
+    }
+  ]
+}

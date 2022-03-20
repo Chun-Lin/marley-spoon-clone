@@ -19,7 +19,7 @@ const TestimonialSection = styled.section`
   }
 `;
 
-const TitleWrapper = styled.div`
+const TitleWrapper = styled.h2`
   margin: 16px 0;
   text-align: center;
   font-size: 1.56rem;

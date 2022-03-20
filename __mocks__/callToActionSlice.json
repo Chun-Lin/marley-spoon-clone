@@ -1,0 +1,37 @@
+{
+  "slice_type": "call_to_action_slice",
+  "slice_label": null,
+  "version": "sktwi1xtmkfgx8626",
+  "variation": "default",
+  "primary": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "EdApp is easy-to-use and free for you and your team. No credit card required.",
+        "spans": [{ "start": 9, "end": 29, "type": "strong" }]
+      }
+    ],
+    "ctaBtnName": [
+      { "type": "paragraph", "text": "Sign up free", "spans": [] }
+    ],
+    "signupButtonLink": {
+      "link_type": "Web",
+      "url": "https://www.edapp.com/signup/free"
+    },
+    "bookDemoDesc": [
+      {
+        "type": "paragraph",
+        "text": "or book a demo with us today!",
+        "spans": [
+          {
+            "start": 3,
+            "end": 14,
+            "type": "hyperlink",
+            "data": { "link_type": "Web", "url": "mailto:demo@edapp.com" }
+          }
+        ]
+      }
+    ]
+  },
+  "items": [{}]
+}

@@ -1,0 +1,73 @@
+{
+  "slice_type": "testimonial_slice",
+  "slice_label": null,
+  "version": "sktwi1xtmkfgx8626",
+  "variation": "default",
+  "primary": {
+    "title": [{ "type": "heading2", "text": "Why EdApp?", "spans": [] }]
+  },
+  "items": [
+    {
+      "avatar": {
+        "dimensions": { "width": 320, "height": 320 },
+        "alt": "Using Computer",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/65f92aec-07cd-475d-bc2d-06d593529c61_rapid-authoring.jpg?auto=compress,format"
+      },
+      "testimonialTitle": [
+        {
+          "type": "heading3",
+          "text": "World-class Authoring Tool",
+          "spans": []
+        }
+      ],
+      "testimonialDesc": [
+        {
+          "type": "paragraph",
+          "text": "Create lessons on EdApp’s intuitive and incredibly agile platform in days. Choose from 2 template libraries, full of completely free and ready-made content ready for you to quickly edit, brand, and deploy. No prior technical knowledge needed. it’s a smartphone, tablet or laptop.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "avatar": {
+        "dimensions": { "width": 160, "height": 160 },
+        "alt": "Using Phone",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/abd82072-5269-4e86-af84-f956e80c3972_growth-millenials-workplace.jpeg?auto=compress,format"
+      },
+      "testimonialTitle": [
+        {
+          "type": "heading3",
+          "text": "Mobile-first microlearning",
+          "spans": []
+        }
+      ],
+      "testimonialDesc": [
+        {
+          "type": "paragraph",
+          "text": "Deliver a learning strategy that provides the best learning outcomes with microlearning. Leverage interactive, built-in features guaranteed to boost engagement and completion rates. Deploy your bespoke content to your teams directly to their personal mobile devices, where they can easily access and complete lessons in small digestible chunks.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "avatar": {
+        "dimensions": { "width": 160, "height": 160 },
+        "alt": "Looking into Phone",
+        "copyright": null,
+        "url": "https://images.prismic.io/marley-spoon-clone/d598d1e0-992f-49fc-9c77-73c1527708cf_flexible-personal-learning.jpeg?auto=compress,format"
+      },
+      "testimonialTitle": [
+        { "type": "heading3", "text": "Better learning outcomes", "spans": [] }
+      ],
+      "testimonialDesc": [
+        {
+          "type": "paragraph",
+          "text": "Experience completion rates beyond 90% compared to rates as low as 15% from traditional eLearning platforms. Apply features like spaced repetition and gamification to make learning fun and enjoyable while simultaneously increasing retention and creating a continuous learning experience.",
+          "spans": []
+        }
+      ]
+    }
+  ]
+}

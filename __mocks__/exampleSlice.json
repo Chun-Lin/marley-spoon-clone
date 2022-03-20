@@ -1,0 +1,37 @@
+{
+  "slice_type": "example_slice",
+  "slice_label": null,
+  "version": "sktwi1xtmkfgx8626",
+  "variation": "withTextRightBlockquote",
+  "primary": {
+    "title": [
+      {
+        "type": "heading2",
+        "text": "An enhanced learning experience with EdApp",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Marley Spoon has a large number of team members, who are divided into various sub-departments, meaning certain courses are targetted to train specific groups. Utilising EdApp’sfeatureslike User Groups and Push Notifications has enabled Marley Spoon to easily create and share content with these unique groups. When new content is ready, learners are notified in real-time with a push notification, sent straight to their mobile devices. Marley Spoon also incentivises its team members through EdApp’s built-in prizing feature. It sparks some friendly competition and winners are rewarded with real prizes.",
+        "spans": []
+      }
+    ],
+    "description2": [],
+    "blockquote": [
+      {
+        "type": "paragraph",
+        "text": "Having our content on EdApp has made it more engaging, more fun, and more interactive.",
+        "spans": []
+      }
+    ],
+    "backgroundImage": {
+      "dimensions": { "width": 2900, "height": 1240 },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.prismic.io/marley-spoon-clone/29511b35-7ee5-4ae5-8189-7ffa8c79ba01_pinkBackground.jpeg?auto=compress,format"
+    }
+  },
+  "items": [{}]
+}

@@ -1,0 +1,1216 @@
+{
+  "logoImage": {
+    "dimensions": { "width": 128, "height": 128 },
+    "alt": "edapp-logo",
+    "copyright": null,
+    "url": "https://images.prismic.io/marley-spoon-clone/7f77ff2e-93b7-4cb2-a93d-5f731dd0f178_ed-logo-128x128.png?auto=compress,format"
+  },
+  "logoHoverImage": {
+    "dimensions": { "width": 128, "height": 128 },
+    "alt": "edapp-logo-hover",
+    "copyright": null,
+    "url": "https://images.prismic.io/marley-spoon-clone/8cfa2114-415a-421c-a2ec-0945736be200_ed-logo-sticker-128x128.png?auto=compress,format"
+  },
+  "login": [
+    {
+      "loginText": [{ "type": "paragraph", "text": "LOG IN", "spans": [] }],
+      "learnTitle": [{ "type": "paragraph", "text": "LEARN", "spans": [] }],
+      "learnSubTitle": [
+        { "type": "paragraph", "text": "Access your lessions", "spans": [] }
+      ],
+      "learnImage": {
+        "dimensions": { "width": 162, "height": 150 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://marley-spoon-clone.cdn.prismic.io/marley-spoon-clone/056872fa-7e80-4591-b4c7-5fd39419bea9_student-icon.svg"
+      },
+      "learnLink": { "link_type": "Web", "url": "https://web.edapp.com/" },
+      "adminTitle": [{ "type": "paragraph", "text": "ADMIN", "spans": [] }],
+      "adminSubTitle": [
+        { "type": "paragraph", "text": "Author, manage & track", "spans": [] }
+      ],
+      "adminImage": {
+        "dimensions": { "width": 162, "height": 150 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://marley-spoon-clone.cdn.prismic.io/marley-spoon-clone/f55a49b0-a8c9-421b-ba8c-342f5e998dc7_teacher-icon.svg"
+      },
+      "adminLink": { "link_type": "Web", "url": "https://admin.edapp.com/" }
+    }
+  ],
+  "signup": [
+    {
+      "signupText": [
+        { "type": "paragraph", "text": "SIGN UP FREE", "spans": [] }
+      ],
+      "signupLink": {
+        "link_type": "Web",
+        "url": "https://www.edapp.com/signup/free"
+      }
+    }
+  ],
+  "headerBgImage": {
+    "dimensions": { "width": 2900, "height": 1240 },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/marley-spoon-clone/347ec8b5-7299-4722-be86-1314e3393291_header-bg-image.jpeg?auto=compress,format"
+  },
+  "slices": [
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "FEATURES", "spans": [] }
+        ],
+        "firstLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "LMS Features", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/lms-features/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Authoring", "spans": [] }
+        ],
+        "secondLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Authoring Tools", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/authoring-tool/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Template library", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/rapid-authoring/template-library/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Canva media library", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/canva-authoring-edapp/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            {
+              "type": "paragraph",
+              "text": "PowerPoint conversion",
+              "spans": []
+            }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/convert-PowerPoint/"
+          }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Editable course library",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/editable-elearning-content-library/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Spaced repetition", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/spaced-repetition/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Rapid refresh", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/rapid-refresh/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "A MOBILE LMS", "spans": [] }
+        ],
+        "firstLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Our vision", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/free-online-training-platform/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Microlearning", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/microlearning/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Mobile Learning", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/mobile-learning/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Elearning Gamification", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/elearning-gamification/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Active learning", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/active-learning-platform/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "COURSE LIBRARY", "spans": [] }
+        ],
+        "firstLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/course-library/"
+        }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "INDUSTRIES", "spans": [] }
+        ],
+        "firstLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Retail Training", "spans": [] }
+        ],
+        "secondLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Retail", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/retail-lms/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Franchises", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/industry/franchises/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            {
+              "type": "paragraph",
+              "text": "Facilities Management",
+              "spans": []
+            }
+          ],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Sales Training", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/sales-training-solution/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Hospitality", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/hospitality-employee-training-platform/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Professional services", "spans": [] }
+        ],
+        "secondLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Insurance", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/industry/insurance-learning-solution/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Finance", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/industry/finance/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Industry Partners", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/industry/industry-partners/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            { "type": "paragraph", "text": "Real Estate", "spans": [] }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/industry/real-estate/"
+          }
+        },
+        {
+          "thirdLevelNavTitle": [
+            {
+              "type": "paragraph",
+              "text": "Facilities Management",
+              "spans": []
+            }
+          ],
+          "thirdLevelNavLink": {
+            "link_type": "Web",
+            "url": "https://www.edapp.com/industry/facility-management-training-platform/"
+          }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Automotive", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/automotive-learning-solution/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Transport", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/transport-industry-training-solution/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Telecommunications", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/telecommunication-training-platform/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "NGO", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/ngo/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Manufacturing", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/manufacturing/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Healthcare", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/healthcare-training-platform/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Education", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/education/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Cyber", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/cyber/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Construction", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/industry/construction/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "EDUCATE ALL", "spans": [] }
+        ],
+        "firstLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/educate-all/"
+        }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "SUPPORT", "spans": [] }
+        ],
+        "firstLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Get started", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/edapp-getting-started"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Support centre", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://support.edapp.com/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Webinars", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/webinars/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Integration", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/lms-integration/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Contact Us", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/contact/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Blog", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/blog/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "TESTIMONIALS", "spans": [] }
+        ],
+        "firstLevelNavLink": { "link_type": "Any" }
+      },
+      "items": [{}]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Our great clients", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/customers/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - The Grounds",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/the-grounds"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Asia Pacific Forum",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/asia-pacific-forum/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Deloitte",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/deloitte/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Excedo",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/excedo/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Dunhill",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/dunhill/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Pandora",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/pandora/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Marley Spoon",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/marley-spoon/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Mizuno",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/mizuno/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Key case study - Shell", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/shell/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Key case study - Mars", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/mars/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - Blooms",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/blooms/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          {
+            "type": "paragraph",
+            "text": "Key case study - UNITAR",
+            "spans": []
+          }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/case-studies/unitar/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "second_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "secondLevelNavTitle": [
+          { "type": "paragraph", "text": "Toolbox Talks", "spans": [] }
+        ],
+        "secondLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/toolbox-talks/"
+        }
+      },
+      "items": [
+        {
+          "thirdLevelNavTitle": [],
+          "thirdLevelNavLink": { "link_type": "Any" }
+        }
+      ]
+    },
+    {
+      "slice_type": "first_level_nav_slice",
+      "slice_label": null,
+      "version": "sktwi1xtmkfgx8626",
+      "variation": "default",
+      "primary": {
+        "firstLevelNavTitle": [
+          { "type": "paragraph", "text": "PRICING", "spans": [] }
+        ],
+        "firstLevelNavLink": {
+          "link_type": "Web",
+          "url": "https://www.edapp.com/pricing/"
+        }
+      },
+      "items": [{}]
+    }
+  ]
+}
