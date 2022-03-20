@@ -76,7 +76,7 @@ const TestimonialSlice = ({ slice }) => {
           const { avatar, testimonialTitle, testimonialDesc } = item;
 
           return (
-            <TestimonialBox>
+            <TestimonialBox key={avatar.url}>
               <Avatar
                 src={avatar.url}
                 alt={avatar.alt}

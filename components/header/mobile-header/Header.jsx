@@ -113,7 +113,7 @@ const Header = ({ navigationData }) => {
 
   const { firstLevel, secondLevel } = useMemo(() => {
     return generateMenuLevels(slices);
-  });
+  }, [slices]);
 
   const [shouldShowMenuDropdown, setShouldShowMenuDropdown] = useState(false);
   const [shouldOpenMenu, setShouldOpenMenu] = useState(false);

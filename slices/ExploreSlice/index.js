@@ -62,7 +62,12 @@ const ExploreSlice = ({ slice }) => {
             const { avatar, cardTitle, cardLink } = item;
 
             return (
-              <Card avatar={avatar} cardTitle={cardTitle} cardLink={cardLink} />
+              <Card
+                avatar={avatar}
+                cardTitle={cardTitle}
+                cardLink={cardLink}
+                key={avatar.url}
+              />
             );
           })}
         </CardGrid>

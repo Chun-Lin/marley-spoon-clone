@@ -38,13 +38,13 @@ const MenuDropdownItem = styled.li`
 `;
 
 const MenuDropdown = ({ listData }) => {
+  const [shouldShowSubMenu, setShouldShowSubMenu] = useState(false);
+
   if (!listData) {
     return null;
   }
 
   return listData.map((category, index) => {
-    const [shouldShowSubMenu, setShouldShowSubMenu] = useState(false);
-
     const { items, primary } = category || {};
     const shouldShowArrowIcon = items?.[0].thirdLevelNavTitle?.length > 0;
 
@@ -61,6 +61,7 @@ const MenuDropdown = ({ listData }) => {
         shouldShowArrowIcon={shouldShowArrowIcon}
         onMouseEnter={menuHoverHandler}
         onMouseLeave={menuMouseLeaveHandler}
+        key={index}
       >
         <a href={primary?.firstLevelNavLink?.url}>
           <PrismicText field={primary?.secondLevelNavTitle} />
@@ -75,6 +76,7 @@ const MenuDropdown = ({ listData }) => {
                 <SubMenuDropdown
                   title={thirdLevelNavTitle}
                   link={thirdLevelNavLink}
+                  key={index}
                 />
               );
             })}

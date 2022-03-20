@@ -41,7 +41,7 @@ const MobileMenuDropdown = ({ listData }) => {
     const shouldShowSubMenu = items?.[0].thirdLevelNavTitle?.length > 0;
 
     return (
-      <MenuDropdownItem>
+      <MenuDropdownItem key={index}>
         <a href={primary?.secondLevelNavLink?.url}>
           <PrismicText field={primary?.secondLevelNavTitle} />
         </a>
@@ -55,6 +55,7 @@ const MobileMenuDropdown = ({ listData }) => {
                 <MobileSubMenuDropdown
                   title={thirdLevelNavTitle}
                   link={thirdLevelNavLink}
+                  key={index}
                 />
               );
             })}

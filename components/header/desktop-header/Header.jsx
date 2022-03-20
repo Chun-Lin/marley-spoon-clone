@@ -134,7 +134,7 @@ const Header = ({ navigationData }) => {
 
   const { firstLevel, secondLevel } = useMemo(() => {
     return generateMenuLevels(slices);
-  });
+  }, [slices]);
 
   const [shouldShowMenuDropdown, setShouldShowMenuDropdown] = useState(false);
   const [hoverMenuIndex, setHoverMenuIndex] = useState(null);
@@ -173,23 +173,22 @@ const Header = ({ navigationData }) => {
                 const shouldShowArrowIcon = secondLevel[index];
 
                 return (
-                  <>
-                    <FirstLevelCategoryItem
-                      shouldShowArrowIcon={shouldShowArrowIcon}
-                      shouldChangeHeaderStyle={shouldChangeHeaderStyle}
-                      onMouseEnter={(e) => menuHoverHandler(index)}
-                      onMouseLeave={menuMouseLeaveHandler}
-                    >
-                      <a href={category?.firstLevelNavLink?.url}>
-                        <PrismicText field={category?.firstLevelNavTitle} />
-                      </a>
-                      {shouldShowMenuDropdown && index === hoverMenuIndex && (
-                        <MenuDropdownWrapper>
-                          <MenuDropdown listData={secondLevel[index]} />
-                        </MenuDropdownWrapper>
-                      )}
-                    </FirstLevelCategoryItem>
-                  </>
+                  <FirstLevelCategoryItem
+                    shouldShowArrowIcon={shouldShowArrowIcon}
+                    shouldChangeHeaderStyle={shouldChangeHeaderStyle}
+                    onMouseEnter={(e) => menuHoverHandler(index)}
+                    onMouseLeave={menuMouseLeaveHandler}
+                    key={index}
+                  >
+                    <a href={category?.firstLevelNavLink?.url}>
+                      <PrismicText field={category?.firstLevelNavTitle} />
+                    </a>
+                    {shouldShowMenuDropdown && index === hoverMenuIndex && (
+                      <MenuDropdownWrapper>
+                        <MenuDropdown listData={secondLevel[index]} />
+                      </MenuDropdownWrapper>
+                    )}
+                  </FirstLevelCategoryItem>
                 );
               })}
             </CategoryItemWrapper>

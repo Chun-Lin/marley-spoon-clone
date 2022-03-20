@@ -89,15 +89,15 @@ const Footer = ({ footerData }) => {
     <FooterSection>
       <Divider />
       <FooterWrapper>
-        {slices.map((slice) => {
+        {slices.map((slice, index) => {
           return (
-            <FooterColumnWrapper>
+            <FooterColumnWrapper key={index}>
               <FooterColumnTitle>
                 <PrismicText field={slice.primary.title} />
               </FooterColumnTitle>
               <FooterListUl>
-                {slice.items.map((item) => (
-                  <FooterList>
+                {slice.items.map((item, index) => (
+                  <FooterList key={index}>
                     <a href={item.footerLink}>
                       <PrismicText field={item.footerTitle} />
                     </a>

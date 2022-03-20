@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback, useState } from 'react';
+import { useEffect, useCallback, useState } from 'react';
 
 const useMedaiQuery = ({
   mediaQuery,
@@ -25,10 +25,9 @@ const useMedaiQuery = ({
     return () => {
       mediaQueryList.removeEventListener('change', handleMediaQueryChange);
     };
-  }, [handleMediaQueryChange]);
+  }, [handleMediaQueryChange, mediaQuery]);
 
   return { isMatch };
 };
-
 
 export default useMedaiQuery;
