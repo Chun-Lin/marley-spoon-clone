@@ -63,7 +63,7 @@ const QuoteSection = ({ imgUrl, imgAlt, blockquote, figCaption }) => {
 
   return (
     <QuoteSectionWrapper>
-      <Image src={imgUrl} alt={imgAlt} />
+      <Image src={imgUrl} alt={imgAlt} loading="lazy" />
       <Figure>
         {shouldShowBlockQuote && (
           <BlockQuoteWrapper>

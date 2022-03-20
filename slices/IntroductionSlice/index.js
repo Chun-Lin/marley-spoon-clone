@@ -66,6 +66,7 @@ const IntroductionSlice = ({ slice }) => (
     <CaseTitleImg
       src={slice.primary.caseTitleImage.url}
       alt={slice.primary.caseTitleImage.alt}
+      loading="lazy"
     />
     <CaseTitle>
       <PrismicText field={slice.primary.title} />

@@ -82,6 +82,7 @@ const TestimonialSlice = ({ slice }) => {
                 alt={avatar.alt}
                 width={160}
                 height={160}
+                loading="lazy"
               />
               <TesimonialTitle>
                 <PrismicText field={testimonialTitle} />

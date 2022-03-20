@@ -100,7 +100,7 @@ const QuoteSectionTwoColumn = ({
           )}
         </TextWrapper>
         <ImageWrapper>
-          <Image src={imgUrl} alt={imgAlt} />
+          <Image src={imgUrl} alt={imgAlt} loading="lazy" />
         </ImageWrapper>
       </TopArea>
       {shouldShowBlockQuote && (

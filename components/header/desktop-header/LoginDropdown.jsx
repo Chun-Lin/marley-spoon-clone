@@ -83,6 +83,7 @@ const LoginDropdown = ({ listData }) => {
             alt={learnImage.alt}
             width="56"
             height="53"
+            loading="lazy"
           />
           <div>
             <TitleWrapper>
