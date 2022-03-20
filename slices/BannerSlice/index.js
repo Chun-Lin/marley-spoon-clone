@@ -12,7 +12,6 @@ const BannerSlice = ({ slice }) => (
     <BannerImage
       src={slice.primary.bannerImage.url}
       alt={slice.primary.bannerImage.alt}
-      loading="lazy"
     />
   </section>
 );
