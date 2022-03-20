@@ -98,7 +98,7 @@ const Footer = ({ footerData }) => {
               <FooterListUl>
                 {slice.items.map((item, index) => (
                   <FooterList key={index}>
-                    <a href={item.footerLink}>
+                    <a href={item.footerLink.url}>
                       <PrismicText field={item.footerTitle} />
                     </a>
                   </FooterList>

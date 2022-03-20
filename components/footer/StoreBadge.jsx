@@ -6,7 +6,7 @@ const StoreBadge = ({ link, image }) => {
   const { width, height } = dimensions;
 
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <a href={link.url} target="_blank" rel="noopener noreferrer">
       <Image
         loading="lazy"
         src={image.url}
