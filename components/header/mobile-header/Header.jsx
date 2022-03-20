@@ -167,13 +167,11 @@ const Header = ({ navigationData }) => {
                 const shouldShowArrowIcon = secondLevel[index];
 
                 return (
-                  <>
-                    <MobileMenuItemTitle
-                      menuData={menuData}
-                      subMenuData={secondLevel[index]}
-                      key={index}
-                    />
-                  </>
+                  <MobileMenuItemTitle
+                    menuData={menuData}
+                    subMenuData={secondLevel[index]}
+                    key={index}
+                  />
                 );
               })}
               <MobileLoginList>

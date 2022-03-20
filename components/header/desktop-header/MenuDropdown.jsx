@@ -68,7 +68,7 @@ const MenuDropdown = ({ listData }) => {
         onMouseLeave={menuMouseLeaveHandler}
         key={index}
       >
-        <a href={primary?.firstLevelNavLink?.url}>
+        <a href={primary?.secondLevelNavLink?.url}>
           <PrismicText field={primary?.secondLevelNavTitle} />
         </a>
 
