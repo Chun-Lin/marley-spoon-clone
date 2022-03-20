@@ -7,7 +7,6 @@ import MobileHeader from '../header/mobile-header/Header';
 import { useMediaQuery } from '../../hooks';
 
 const Layout = ({ seo, navigation, footer, children }) => {
-console.log("🚀 ~ file: Layout.jsx ~ line 10 ~ Layout ~ seo", seo)
   const { isMatch: shouldShowMobileHeader } = useMediaQuery({
     mediaQuery: '(max-width: 1140px)',
   });

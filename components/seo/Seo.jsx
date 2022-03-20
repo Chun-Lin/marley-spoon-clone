@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 
 const Seo = ({ metaTitle, metaDescription, metaImage, lang }) => {
-console.log("🚀 ~ file: SEO.jsx ~ line 5 ~ Seo ~ metaImage", metaImage)
   return (
     <Head>
       <title>{metaTitle}</title>
