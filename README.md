@@ -1,34 +1,45 @@
-# TypeScript & Styled Components Next.js example
+# Marley Spoon Clone
+### Demo Site: https://marley-spoon-clone-dsmjgviqk-wulin40063.vercel.app/
 
-This is a really simple project that show the usage of Next.js with TypeScript and Styled Components.
-
-## Preview
-
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript-styled-components)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript-styled-components&project-name=with-typescript-styled-components&repository-name=with-typescript-styled-components)
-
-## How to use it?
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
+## Development
 ```bash
-npx create-next-app --example with-typescript-styled-components with-typescript-styled-components-app
-# or
-yarn create next-app --example with-typescript-styled-components with-typescript-styled-components-app
+$ npm install
+$ npm run dev
+# Listening at http://localhost:3000 with the default
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Production
+```bash
+$ npm run build
+```
 
-## Notes
+## Run Tests
+```bash
+$ npm run test
+# Run all tests
+```
 
-This is an amalgamation of the 2 existing examples:
+## slice machine
+> run slice machine in localhost
+```bash
+$ npm run slicemachine
+# Listening at http://localhost:9999 with the default
+```
 
-- [with-typescript](https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
-- [with-styled-components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components)
+## Set up list
+
+- [x] styling
+  - [x] styled-reset
+  - [x] styled-components (can easily inject props to modify CSS properties)
+- [x] eslint
+- [x] prettier (formatting codes)
+- [x] testing
+  - [x] react-testing-library (can easily get component node to test)
+  - [x] testing-library/jest-dom/extend-expect 
+
+
+## Improvements
+
+- Responsiveness in different device widths
+- Scale up with slices and types
+- unit tests for slices and components
