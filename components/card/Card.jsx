@@ -34,7 +34,7 @@ const CardTitle = styled.h6`
 
 const Card = ({ avatar, cardTitle, cardLink }) => {
   return (
-    <CardWrapper href={cardLink}>
+    <CardWrapper href={cardLink.url}>
       <Avatar src={avatar.url} alt={avatar.alt} width={60} height={60} />
       <CardTitle>
         <PrismicText field={cardTitle} />
