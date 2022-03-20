@@ -7,7 +7,7 @@ const BarIcon = styled.div`
   background-color: #ffffff;
 `;
 
-const BurgerIconWrapper = styled.div.attrs((props) => ({
+const BurgerIconWrapper = styled.div.attrs(() => ({
   tabIndex: 0,
 }))`
   width: 48px;
