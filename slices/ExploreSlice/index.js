@@ -48,10 +48,6 @@ const CardGrid = styled.div`
 `;
 
 const ExploreSlice = ({ slice }) => {
-  console.log(
-    '🚀 ~ file: index.js ~ line 51 ~ ExploreSlice ~ slice',
-    JSON.stringify(slice)
-  );
   const { primary, items } = slice;
   const { title } = primary;
 
