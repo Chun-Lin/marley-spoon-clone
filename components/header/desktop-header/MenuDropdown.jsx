@@ -38,7 +38,8 @@ const MenuDropdownItem = styled.li`
 `;
 
 const MenuDropdown = ({ listData }) => {
-  const [shouldShowSubMenu, setShouldShowSubMenu] = useState(false);
+  const [isHoverOnMenuItem, setIsHoverOnMenuItem] = useState(false);
+  const [hoverMenuIndex, setHoverMenuIndex] = useState(null);
 
   if (!listData) {
     return null;
@@ -46,19 +47,23 @@ const MenuDropdown = ({ listData }) => {
 
   return listData.map((category, index) => {
     const { items, primary } = category || {};
-    const shouldShowArrowIcon = items?.[0].thirdLevelNavTitle?.length > 0;
+    const hasSubMenuItems = items?.[0].thirdLevelNavTitle?.length > 0;
 
     const menuHoverHandler = () => {
-      setShouldShowSubMenu(true);
+      setIsHoverOnMenuItem(true);
+      setHoverMenuIndex(index);
     };
 
     const menuMouseLeaveHandler = () => {
-      setShouldShowSubMenu(false);
+      setIsHoverOnMenuItem(false);
     };
+
+    const shouldShowSubMenu =
+      hasSubMenuItems && isHoverOnMenuItem && index === hoverMenuIndex;
 
     return (
       <MenuDropdownItem
-        shouldShowArrowIcon={shouldShowArrowIcon}
+        shouldShowArrowIcon={hasSubMenuItems}
         onMouseEnter={menuHoverHandler}
         onMouseLeave={menuMouseLeaveHandler}
         key={index}
@@ -67,7 +72,7 @@ const MenuDropdown = ({ listData }) => {
           <PrismicText field={primary?.secondLevelNavTitle} />
         </a>
 
-        {shouldShowArrowIcon && shouldShowSubMenu && (
+        {shouldShowSubMenu && (
           <MenuDropdownWrapper isSubMenu={true}>
             {items.map((item, index) => {
               const { thirdLevelNavLink, thirdLevelNavTitle } = item || {};
