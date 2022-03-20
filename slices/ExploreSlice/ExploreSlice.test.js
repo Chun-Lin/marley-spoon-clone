@@ -5,11 +5,9 @@ import exploreSliceData from '../../__mocks__/exploreSlice.json';
 
 describe('ExploreSlice', () => {
   it('renders ExploreSlice', () => {
-    const { getByRole, getAllByRole, getByText, debug } = render(
+    const { getByRole, getAllByRole } = render(
       <ExploreSlice slice={exploreSliceData} />
     );
-
-    debug();
 
     expect(getByRole('heading', { level: 5 })).toHaveTextContent(
       'EXPLORE MORE'
