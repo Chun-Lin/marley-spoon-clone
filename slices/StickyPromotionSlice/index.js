@@ -52,18 +52,6 @@ const CtaButton = styled.button`
   }
 `;
 
-const LineOne = styled.div`
-  &:first-child {
-    transform: translate3d(0, 0, 0) scale(1) rotate(90deg);
-    background-color: #fff;
-  }
-
-  &:nth-child(2) {
-    transform: translate3d(0, 0, 0) scale(1) rotate(90deg);
-    background-color: #fff;
-  }
-`;
-
 const IconCross = styled.i`
   position: absolute;
   top: 10px;

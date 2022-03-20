@@ -1,29 +1,15 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import styled from 'styled-components';
-import { PrismicText, SliceZone } from '@prismicio/react';
+import React from 'react';
+import { SliceZone } from '@prismicio/react';
 
 import { components } from '../slices/index.js';
 import { createClient } from '../prismicio';
-import { useMediaQuery } from '../hooks';
-import Footer from '../components/footer/Footer';
-import DesktopHeader from '../components/header/desktop-header/Header';
-import MobileHeader from '../components/header/mobile-header/Header';
+import Layout from '../components/layout/Layout';
 
-const Home = ({ mainSlices, footer, navigation }) => {
-  const { isMatch: shouldShowMobileHeader } = useMediaQuery({
-    mediaQuery: '(max-width: 1140px)',
-  });
-
+const Home = ({ mainSlices, layout }) => {
   return (
-    <div>
-      {shouldShowMobileHeader ? (
-        <MobileHeader navigationData={navigation.data} />
-      ) : (
-        <DesktopHeader navigationData={navigation.data} />
-      )}
+    <Layout {...layout}>
       <SliceZone slices={mainSlices} components={components} />
-      <Footer footerData={footer.data} />
-    </div>
+    </Layout>
   );
 };
 
@@ -33,16 +19,16 @@ export async function getStaticProps({ previewData }) {
   const caseStudies = await client.getSingle('case-studies');
   const footer = await client.getSingle('footer');
   const navigation = await client.getSingle('navigation');
-  console.log(
-    '🚀 ~ file: index.tsx ~ line 24 ~ getStaticProps ~ navigation',
-    navigation
-  );
+  const seo = await client.getSingle('seo');
 
   return {
     props: {
       mainSlices: caseStudies.data.slices,
-      footer,
-      navigation,
+      layout: {
+        footer,
+        navigation,
+        seo,
+      },
     },
   };
 }
